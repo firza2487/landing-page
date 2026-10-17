@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;600;900&display=swap');
+
+/* bagian body */
+body {margin: 0; padding: 0; height: 100vh; font-family: 'Roboto';}
+
+/* Bagian Header */
+header {background-color: #1F2937;}
+
+#header-separator {
+    margin: 0 15%;
+
+    display: flex;
+    align-items: center; justify-content: space-between;
+}
+
+#header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    font-weight: normal;
+    font-size: 20px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* bagian hero */
+#hero {
+    background-color: #1F2937;
+}
+
+#hero-separator {
+    margin: 0 15%; padding: 5% 0;
+
+    display: flex;
+    align-items: stretch;
+}
+
+#hero-separator * {
+    margin: 30px 0;
+}
+
+#hero-half {
+    margin: 0; width: 50%; margin-right: 5%;
+}
+
+#hero-header {
+    margin: auto 0;
+    font-size: 48px; color: #F9FAF8; font-weight: 900;
+}
+
+#hero-subheader {
+    font-size: 18px; color: #e5e7eb;
+}
+
+#hero-button {
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882F6;
+    border: none; border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px 0;
+}
+
+#hero-img {
+    margin: 0; width: 50%; margin-left: 5%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+    display: flex;
+    align-items: center; justify-content: center;
+}
+
+/* bagian info */
+#info {
+    padding-bottom: 30px;
+
+    background-color: #F9FAF8;
+}
+
+#info-separator {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 10%;
+}
+
+#info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 40px;
+}
+
+#info-items {
+    margin: 0 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 30px;
+    width: 150px;
+
+    font-size: 16px;
+    text-align: center;
+}
+
+.info-img {
+    width: 150px; height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+/* bagian quote */
+#quote {
+    background-color: #E5E7EB;
+    padding: 15px 0;
+}
+
+#quote-separator {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 25%;
+}
+
+#quote-fill {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#quote-credit {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+
+    margin-left: auto;
+}
+
+/* bagian cta=call to action */
+#cta {
+    padding: 40px 0;
+    background-color: #F9FAF8;
+}
+
+#cta-separator {
+    margin: 0 15%;
+}
+
+#cta-ctr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #3882F6;
+    width: 100%; height: 120px;
+    border-radius: 25px;
+}
+
+#cta-header {
+    font-size: 22px;
+    margin: 0 0;
+    color: #F9FAF8;
+}
+
+#cta-fill {
+    color: #F9FAF8;
+    margin: 0 0;
+}
+
+#cta-button {
+    font-size: 16px;
+    height: 40px; width: 140px;
+
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    
+    display: flex;
+    justify-content: center;
+}
+
+footer #fill {
+    margin: 2% 0;
+    color:#F9FAF8;
+}
